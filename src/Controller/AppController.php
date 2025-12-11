@@ -1,7 +1,6 @@
 <?php
 namespace App\Controller;
 
-use App\Controller\Controller;
 use App\Service\Request;
 use App\Repository\UserRepository;
 use App\Model\User;

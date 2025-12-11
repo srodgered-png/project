@@ -88,12 +88,11 @@ if (empty($route['controller']) || empty($route['action'])) {
 include_once('../src/Controller/AbstractController.php');
 include_once('../src/Controller/' . $route['controller'] . '.php');
 
-//try {
+try {
     $diApp = new App\Service\ActionInvoker($route['controller'], $route['action']);
     echo $diApp->invoke();
-/*} catch (\Throwable $e) {
+} catch (\Throwable $e) {
     http_response_code(500);
     echo 'Something wrong 500 ;(';
     die;
 }
-*/

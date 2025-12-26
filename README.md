@@ -1,3 +1,6 @@
+ Test assignment for company ******.
+ This task must be implemented in PHP, without frameworks. Retrieving user information, saving, editing, and deleting it.
+
  Docker: docker.zip
  
  DB: test.sql
